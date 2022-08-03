@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Poppins", cursive;
+  color: #3D3C42;
+}
+
+span{
+  color: #7F5283;
+}
+h1 {
+  font-family: "Sacramento", verdana, sans-serif;
+  color: #3D3C42;
+  margin-top: 0;
+}
+
+h2{
+  font-family: "Poppins", cursive;
+}
+
+h3{
+  font-family: "Poppins", cursive;
+}
+
+p {
+  font-family: "Poppins", cursive;
+  color: #3D3C42;
+}
+
+
+.top-container {
+  background-color: #FEFBF6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: #A6D1E6;
+  display: block;
+  overflow: hidden;
+}
+
+.bottom-container {
+  background-color: #FEFBF6;
+
+  display: block;
+  overflow: hidden;
+}
+
+.skills-img{
+max-width: 10%;
+height: auto;
+border-radius: 50%
+}
+
+#pp {
+  max-width: 10%;
+  height: auto;
+  border-radius: 50%
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
