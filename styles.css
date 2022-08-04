@@ -28,6 +28,11 @@ p {
   color: #3D3C42;
 }
 
+.contact-me{
+
+    padding-bottom: 40px;
+}
+
 
 .top-container {
   background-color: #FEFBF6;
@@ -71,3 +76,32 @@ border-radius: 50%
   right: 300px;
   top: 50px;
 }
+
+
+.btn {
+  background: #A6D1E6;
+  background-image: -webkit-linear-gradient(top, #A6D1E6, #76549A);
+  background-image: -moz-linear-gradient(top, #A6D1E6, #76549A);
+  background-image: -ms-linear-gradient(top, #A6D1E6, #76549A);
+  background-image: -o-linear-gradient(top, #A6D1E6, #76549A);
+  background-image: linear-gradient(to bottom, #A6D1E6, #76549A);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #76549A;
+  background-image: -webkit-linear-gradient(top, #76549A, #A6D1E6);
+  background-image: -moz-linear-gradient(top, #76549A, #A6D1E6);
+  background-image: -ms-linear-gradient(top, #76549A, #A6D1E6);
+  background-image: -o-linear-gradient(top, #76549A, #A6D1E6);
+  background-image: linear-gradient(to bottom, #76549A, #A6D1E6);
+  text-decoration: none;
+}
+
