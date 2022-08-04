@@ -1,144 +1,122 @@
-body {
-  margin: 0;
-  text-align: center;
-  font-size: 16px;
-  font-family: "Poppins", cursive;
-  color: #3D3C42;
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Aysel</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Sacramento&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="top-container">
+      <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+      <img class="butterfly" src="https://media2.giphy.com/media/mFjYHowKIQxRoGVSJy/200.webp?cid=ecf05e475v4wolkgtnhyidvl18vtt298xuuptwkdhhdcw93m&rid=200.webp&ct=s" alt="">
+      <h1>I am <span>Aysel.</span></h1>
+      <h2>a student & programmer.</h2>
+      <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+      <img src="images/mountain.png" alt="mountain-img">
+    </div>
+
+
+    <div class="middle-container">
+      <div class="profile">
+        <img id="pp" src="images/aysel.jpeg" alt="">
+        <h2>Hello.</h2>
+        <p>I am a senior Computer Engineering student in Middle East Technical University. I am currently working on myself and learning Web Development & French</p>
+      </div>
+      <hr>
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img class="code-img" src="https://t3.ftcdn.net/jpg/03/29/36/40/360_F_329364028_wVuGGblS5BxfbbQYiPMZzpzOuAYUBkzx.jpg" alt="">
+
+          <div class="skill-text">
+          <h3>Coding</h3>
+          <p>I am good at coding and debugging, and I can help you too! </p>
+          </div>
+        </div>
+        <div class="skill-row">
+          <img class="piano-img" src="https://png.pngtree.com/element_our/20190603/ourlarge/pngtree-creative-black-piano-illustration-image_1451792.jpg" alt="">
+          <div class="skill-text">
+          <h3>Playing piano</h3>
+          <p>I love playing piano and I am very good at it :) </p>
+        </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="bottom-container">
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <p>If you need help or you have a job opportunity for me, feel free to contact me!</p>
+        <a class="btn" href="mailto:aysel01.07@gmail.com">CONTACT ME</a>
+      </div>
+      <a class="footer-link" href="https://www.linkedin.com/in/aysel-babazade-21a66a199/">LinkedIn</a>
+      <a class="footer-link" href="https://twitter.com/ayselbbzd">Twitter</a>
+      <a class="footer-link" href="https://www.instagram.com/ayselbbzd/">Instagram</a>
+      <p>© 2022 Aysel Babazade.</p>
+    </div>
+
+
+
+  </body>
+</html>
+
+<!--Ctrl+hover on pesticide mode to see where you are working on-->
+<!--Margin, Border, Padding -->
+
+<!--
+COMMON BLOCK ELEMENTS:
+Paragraphs (<p>)
+Headers (<h1> through <h6>)
+Divisions (<div>)
+Lists and list items (<ol>, <ul>, and <li>)
+Forms (<form>)
+-->
+
+<!--
+DISPLAY:
+block
+inline
+inline-block
+none
+-->
+
+<!--
+POSITION:
+                Static
+default
+
+                Relative
+img{
+  position: Relative
+  left:30px;
 }
 
-hr{
-  border: dotted #DAEAF1 6px;
-  border-bottom: none;
-  width: 4%;
+                Absolute
+img{
+  position: absolute;
+  left: 200px;
 }
-
-span{
-  color: #7F5283;
-}
-h1 {
-  font-family: "Sacramento", verdana, sans-serif;
-  color: #3D3C42;
-  margin-top: 0;
-}
-
-h2{
-  font-family: "Poppins", cursive;
-}
-
-h3{
-  font-family: "Poppins", cursive;
-}
-
-p {
-  font-family: "Poppins", cursive;
-  color: #3D3C42;
-}
-
-.contact-me{
-
-    padding-bottom: 40px;
-}
-
-
-.top-container {
-  background-color: #FEFBF6;
+div{
   position: relative;
-  padding-top: 100px;
 }
 
-.middle-container {
-  background-color: #A6D1E6;
-  display: block;
-  overflow: hidden;
-}
-
-.profile{
-  width: 50%;
-  margin: auto;
-}
-
-.bottom-container {
-  background-color: #FEFBF6;
-  display: block;
-  overflow: hidden;
-}
-
-.piano-img{
-max-width: 20%;
-border-radius: 50%;
-float: right;
-margin-left: 30px;
-margin-bottom: 20px;
-}
-
-.code-img{
-max-width: 20%;
-border-radius: 50%;
-float: left;
-margin-right: 30px;
-margin-bottom: 20px;
-}
-
-.skill-row{
-  width: 50%;
-  margin: 100px auto 100px auto;
-  text-align: left;
-  line-height: 2;
-}
-
-.skill-text{
-  width: 50%;
-  margin: auto;
-}
-
-.butterfly{
-  max-width: 20%;
-  height: auto;
-  border-radius: 50%
-
-}
-#pp {
-  max-width: 20%;
-  height: auto;
-  border-radius: 50%
-}
-
-.bottom-cloud {
-  position: absolute;
-  left: 300px;
-  bottom: 300px;
-}
-
-.top-cloud {
-  position: absolute;
-  right: 300px;
-  top: 50px;
-}
+Fixed
+-->
 
 
-.btn {
-  background: #A6D1E6;
-  background-image: -webkit-linear-gradient(top, #A6D1E6, #76549A);
-  background-image: -moz-linear-gradient(top, #A6D1E6, #76549A);
-  background-image: -ms-linear-gradient(top, #A6D1E6, #76549A);
-  background-image: -o-linear-gradient(top, #A6D1E6, #76549A);
-  background-image: linear-gradient(to bottom, #A6D1E6, #76549A);
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-}
+<!--
+*px is static*
+Note: If you wanna use dynamic font-size, use %. 100%=16px
+OR
+use em, 1 em = 16px
+OR
+use rem, it compares with root (does not compare with body)
+-->
 
-.btn:hover {
-  background: #76549A;
-  background-image: -webkit-linear-gradient(top, #76549A, #A6D1E6);
-  background-image: -moz-linear-gradient(top, #76549A, #A6D1E6);
-  background-image: -ms-linear-gradient(top, #76549A, #A6D1E6);
-  background-image: -o-linear-gradient(top, #76549A, #A6D1E6);
-  background-image: linear-gradient(to bottom, #76549A, #A6D1E6);
-  text-decoration: none;
-}
+<!-- FLoat and clear -->
