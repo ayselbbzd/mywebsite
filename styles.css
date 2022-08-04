@@ -6,6 +6,12 @@ body {
   color: #3D3C42;
 }
 
+hr{
+  border: dotted #DAEAF1 6px;
+  border-bottom: none;
+  width: 4%;
+}
+
 span{
   color: #7F5283;
 }
@@ -46,19 +52,51 @@ p {
   overflow: hidden;
 }
 
+.profile{
+  width: 50%;
+  margin: auto;
+}
+
 .bottom-container {
   background-color: #FEFBF6;
-
   display: block;
   overflow: hidden;
 }
 
-.skills-img{
+.piano-img{
 max-width: 20%;
-height: auto;
-border-radius: 50%
+border-radius: 50%;
+float: right;
+margin-left: 30px;
+margin-bottom: 20px;
 }
 
+.code-img{
+max-width: 20%;
+border-radius: 50%;
+float: left;
+margin-right: 30px;
+margin-bottom: 20px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-text{
+  width: 50%;
+  margin: auto;
+}
+
+.butterfly{
+  max-width: 20%;
+  height: auto;
+  border-radius: 50%
+
+}
 #pp {
   max-width: 20%;
   height: auto;
@@ -104,4 +142,3 @@ border-radius: 50%
   background-image: linear-gradient(to bottom, #76549A, #A6D1E6);
   text-decoration: none;
 }
-
